@@ -1,5 +1,4 @@
 import { Frame } from "@gptscript-ai/gptscript";
-import { DEFAULT_MAX_VERSION } from "tls";
 
 const renderEventMessage = (event: Frame) => {
 

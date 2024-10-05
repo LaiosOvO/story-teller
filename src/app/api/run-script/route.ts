@@ -50,8 +50,3 @@ export async function POST( request: NextRequest ) {
     }
 
 }
-
-
-export async function GET(request: NextRequest){
-    console.log("good request");
-}
