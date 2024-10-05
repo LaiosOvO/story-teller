@@ -14,11 +14,10 @@
     "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "https-proxy-agent": "^7.0.5",
     "lucide-react": "^0.447.0",
     "next": "14.2.14",
-    "node-fetch": "^2.7.0",
-    "proxy-agent": "^6.4.0",
+
+
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.5.3",
@@ -26,7 +25,6 @@
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/node-fetch": "^2.6.11",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
