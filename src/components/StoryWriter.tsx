@@ -7,12 +7,6 @@ import { useState } from "react"
 import {Frame} from "@gptscript-ai/gptscript"
 import renderEventMessage from "@/lib/renderEventMessage"
 
-// import fetch from 'node-fetch';
-// import { HttpsProxyAgent } from 'https-proxy-agent';
-
-// const proxyUrl = 'http://127.0.0.1:10809'; // 将端口替换为你的 V2Ray 代理端口
-// const agent = new HttpsProxyAgent(proxyUrl);// 
-
 const storiesPath = "public/stories";
 
 function StoryWriter() {
@@ -29,7 +23,6 @@ function StoryWriter() {
         setRunFinished(false);
 
         const response = await fetch( "/api/run-script" , {
-            // agent: agent,
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
