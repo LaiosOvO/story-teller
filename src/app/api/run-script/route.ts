@@ -1,7 +1,7 @@
 import { RunEventType, RunOpts } from "@gptscript-ai/gptscript";
 import { NextRequest } from "next/server";
 import g from "@/lib/gptScriptInstance";
-export const maxDuration = 900; // This function can run for a maximum of 5 seconds
+export const maxDuration = 60; // This function can run for a maximum of 5 seconds
 
 const sciprt = "src/app/api/run-script/story-book.gpt";
 
